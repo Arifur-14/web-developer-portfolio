@@ -181,3 +181,27 @@ p {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 80px 180px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:#757575;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #FFF;
+}
